@@ -1,0 +1,45 @@
+% Preamble
+\documentclass[french, 12pt]{report}
+	\usepackage[utf8]{inputenc}
+	\usepackage{setspace}
+	\usepackage[a4paper, top=3cm, bottom=3.0cm, left=3.65cm, right=3.65cm, footskip = 1.0cm, includehead, includefoot]{geometry}
+	\usepackage[T1]{fontenc}
+	\usepackage{lmodern}
+	\usepackage[french]{babel}
+	\title{Attestation sur l'honneur de non condamnation et de filiation}
+	\author{Louis Brulé Naudet}
+	\date{\today}
+
+\pagenumbering{gobble}
+
+\makeatletter
+
+\renewcommand*\footnoterule{}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%z
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\setlength{\parskip}{1.4em} 
+
+% Document
+\begin{document}
+\begin{center}
+\LARGE{ATTESTATION SUR L'HONNEUR DE NON CONDAMNATION et de FILIATION}
+\end{center}
+\setstretch{1.4}
+\vspace{1cm}
+
+Je soussigné(e) \{{prénom}\} \{{nom}\}, né(e) le \{{date de naissance}\} à \{{ville de naissance}\} et demeurant \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\}, de \{{prénom du père}\} \{{nom du père}\} et de \{{prénom de la mère}\} \{{nom de la mère}\}.\par
+
+Déclare sur l'honneur, conformément à l'article 17 de l'arrêté du 09 février 1988 modifiant et complétant le décret \no 67-237 du 23 mars 1967\blfootnote{Ordonnance \no 58-1352 du 27 décembre 1958 réprimant certaines infractions en matière de Registre du Commerce et des Sociétés (Journal Officiel du 29 décembre 1958) :  \vspace{1em}
+
+Article 2 : \og Quiconque donne de mauvaise foi des indications inexactes ou incomplètes en vue d’une immatriculation, d'une radiation, ou d'une mention complémentaire ou rectificative au Registre du Commerce et des Sociétés est puni d'une amende de 76,22 à 4 573,47 Euros et d'un emprisonnement de 10 jours à 6 mois ou de l'une de ces deux peines seulement \fg{}.
+}, relatif au Registre du Commerce et des Sociétés, n'avoir fait l'objet d'aucune condamnation pénale, ni de sanction civile ou administrative de nature à m'interdire, soit l'exercice d'une activité commerciale ou professionnelle, soit de gérer, administrer ou diriger une personne morale assujettie à l'immatriculation au Registre du Commerce et des Sociétés.\par
+
+Fait à \{{ville}\}, le {\today}.\par
+\hspace*{8cm}Signature
+
+\end{document}

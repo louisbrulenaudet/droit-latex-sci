@@ -1,0 +1,46 @@
+% Preamble
+\documentclass[french, 12pt]{report}
+	\usepackage[utf8]{inputenc}
+	\usepackage{setspace}
+	\usepackage[a4paper, top=3cm, bottom=3.0cm, left=3.65cm, right=3.65cm, footskip = 1.0cm, includehead, includefoot]{geometry}
+	\usepackage[T1]{fontenc}
+	\usepackage{lmodern}
+	\usepackage[french]{babel}
+	\title{Attestation de domiciliation et d'autorisation de siège social}
+	\author{Louis Brulé Naudet}
+	\date{\today}
+
+\pagenumbering{gobble}
+
+\makeatletter
+
+\renewcommand*\footnoterule{}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%z
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\setlength{\parskip}{1.4em} 
+
+% Document
+\begin{document}
+\begin{center}
+\LARGE{ATTESTATION de DOMICILIATION et d'AUTORISATION DE SIÈGE SOCIAL}
+\end{center}
+\setstretch{1.4}
+\vspace{1cm}
+
+Je soussigné(e) \{{prénom}\} \{{nom}\}, né(e) le \{{date de naissance}\} à \{{ville de naissance}\} et demeurant \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\}, agissant en qualité d'associé de la société \{{raison sociale}\} (\{{forme juridique}\}) au capital de \{{capital}\} Euros, dont le siège social est fixé au \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\} aux termes des dispositions statutaires.\par
+
+	Déclare sur l'honneur recourir aux dispositions de l’article L.123-11-1\blfootnote{Article L.123-11-1 : \og Toute personne morale est autorisée à installer son siège au domicile de son représentant légal et y exercer une activité, sauf dispositions législatives ou stipulations contractuelles contraires.\vspace{1em}
+
+Lorsque la personne morale est soumise à des dispositions législatives ou stipulations contractuelles mentionnées à l'alinéa précédent, son représentant légal peut en installer le siège à son domicile, pour une durée ne pouvant ni excéder cinq ans à compter de la création de celle-ci, ni dépasser le terme légal, contractuel ou judiciaire de l'occupation des locaux[...].\vspace{1em}
+
+Il ne peut résulter des dispositions du présent article ni le changement de destination de l'immeuble, ni l'application du statut des baux commerciaux\fg{}.} du Code de Commerce et autorise la société \{{raison sociale}\} à domicilier son siège social au \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\} pour l'exercice de ses activités à compter du {\today}.\par
+
+Fait à \{{ville}\}, le {\today}.\par
+\hspace*{8cm}Signature
+
+\end{document}

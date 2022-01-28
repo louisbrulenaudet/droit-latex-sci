@@ -1,0 +1,47 @@
+% Preamble
+\documentclass[french, 12pt]{report}
+	\usepackage[utf8]{inputenc}
+	\usepackage{setspace}
+	\usepackage[a4paper, top=3cm, bottom=3.0cm, left=3.65cm, right=3.65cm, footskip = 1.0cm, includehead, includefoot]{geometry}
+	\usepackage[T1]{fontenc}
+	\usepackage{lmodern}
+	\usepackage[french]{babel}
+	\title{Avis de constitution de société}
+	\author{Louis Brulé Naudet}
+	\date{\today}
+
+\pagenumbering{gobble}
+
+\makeatletter
+
+\renewcommand*\footnoterule{}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%z
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\setlength{\parskip}{1.4em} 
+
+% Document
+\begin{document}
+\begin{center}
+\LARGE{AVIS de CONSTITUTION de SOCIÉTÉ}
+\end{center}
+\setstretch{1.4}
+\vspace{1cm}
+
+Par acte sous seing privé, il a été constituée une \{{forme juridique}\} dénommée \{{raison sociale}\}, au capital de \{{capital}\} Euros, dont le siège social est fixé au \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\}.\par 
+
+Aux termes des dispositions statutaires :\\
+Dénomination sociale : \{{raison sociale}\}\\
+Capital social : \{{capital}\} Euros\\
+Siège social : \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\}\\
+Objet social : \{{objet social}\}\\
+Durée : \{{durée d'exercice}\}\\
+Apports en numéraire : \{{qualité des apports}\} Euros\\
+Gérant : \{{prénom}\} \{{nom}\}, né(e) le \{{date de naissance}\} à \{{ville de naissance}\} et demeurant \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\}\\
+Cession des parts sociales : \{{modalités d'agrément}\}\\
+Mention : \{{localisation du RCS}\}
+\end{document}

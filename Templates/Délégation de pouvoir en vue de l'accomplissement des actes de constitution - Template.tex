@@ -1,0 +1,45 @@
+% Preamble
+\documentclass[french, 12pt]{report}
+	\usepackage[utf8]{inputenc}
+	\usepackage{setspace}
+	\usepackage[a4paper, top=3cm, bottom=3.0cm, left=3.65cm, right=3.65cm, footskip = 1.0cm, includehead, includefoot]{geometry}
+	\usepackage[T1]{fontenc}
+	\usepackage{lmodern}
+	\usepackage[french]{babel}
+	\title{Délégation de pouvoir en vue de l'accomplissement des actes de constitution}
+	\author{Louis Brulé Naudet}
+	\date{\today}
+
+\pagenumbering{gobble}
+
+\makeatletter
+
+\renewcommand*\footnoterule{}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%z
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\setlength{\parskip}{1.4em} 
+
+% Document
+\begin{document}
+\begin{center}
+\LARGE{DÉLÉGATION DE POUVOIR en vue de l'ACCOMPLISSEMENT DES ACTES DE CONSTITUTION}
+\end{center}
+\setstretch{1.4}
+\vspace{1cm}
+
+Je soussigné(e) \{{prénom}\} \{{nom}\}, né(e) le \{{date de naissance}\} à \{{ville de naissance}\} et demeurant \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\}, agissant en qualité d'associé de la société \{{raison sociale}\} (\{{forme juridique}\}) au capital de \{{capital}\} Euros, dont le siège social est fixé au \{{numéro de voie}\} \{{libellé de la voie}\}, \{{code postal}\} \{{ville}\}.\par
+
+Concède procuration pour délégation de pouvoir à \{{civilité du mandataire}\} \{{prénom du mandataire}\} \{{nom du mandataire}\}, associé et représentant légal de \{{société du mandataire}\}, association d'avocats à responsabilité professionnelle individuelle, dont le siège social est sis \{{libellé de la voie du mandataire}\}, \{{code postal du mandataire}\} \{{ville du mandataire}\}, enregistrée au répertoire SIREN sous l'identifiant \{{siren du mandataire}\}, qui l'accepte, afin d'effectuer toutes les démarches relatives aux formalités auprès du Registre du Commerce et des Sociétés, et de signer tout document ou pièce requise pour la création de la société \{{raison sociale}\}\blfootnote{La présente délégation est valable à compter du {\today}. Le mandataire pourra passer tous les actes et pièces juridiques au bon déroulement de la réalisation des actes susvisés. Aucun objet de subdélégation par le délégataire ne peut faire par cette présente délégation.}.
+
+rédiger à mon nom les documents nécessaires pour l'immatriculation de la société \{{raison sociale}\}.\par
+
+Fait à \{{ville}\}, le {\today}.\par
+Signature du mandant
+\hspace*{3cm}Signature du mandataire
+
+\end{document}
