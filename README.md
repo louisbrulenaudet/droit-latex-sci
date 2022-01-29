@@ -78,7 +78,7 @@ with open(filename + ".tex", "r") as file :
 
 **La fonction primitive est facilement observable**, l’algorithme assigne à une variable texcontent la valeur du contenu récupéré au sein du fichier .tex, puis l’analysera afin de réaliser une version dupliquée avec substitution des variables identifiées selon la nomenclature renseignée à la fonction `replace()`. Finalement, un second fichier `.tex` sera enregistré dans le répertoire local, afin d’être directement manipulable par le programme. À ce stade, la solution n’est cependant que partiellement satisfaisante car le fichier nouvellement créé n’a pas subi de processus de compilation et reste sous la forme d’un contenu textuel enrichi. Afin d’accroitre sa portabilité et de pouvoir l’échanger sous l’extension `.pdf`, sera nécessaire une étape de compilation par un logiciel de mise en page. Dans notre cas, nous utiliserons XeTeX, pour plusieurs raisons, de manière non limitative : 
 
->le système gère nativement Unicode, et permet d’utiliser une diversité de fontes sans obligation de dépendre des paquets de polices, génère directement un fichier .pdf hautement disponible, ect. 
+>Le système gère nativement Unicode, et permet d’utiliser une diversité de fontes sans obligation de dépendre des paquets de polices, génère directement un fichier .pdf hautement disponible, ect. 
 
 Nous exécuterons la commande permettant son application grâce au module Python os, offrant la possibilité d’interagir avec le système d’exploitation par l’intermédiaire du terminal servant à l’exécution.
 
