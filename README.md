@@ -2,6 +2,8 @@
 [![Documentation](https://img.shields.io/badge/Template-LaTeX-blue.svg)](https://github.com/latex3/)
 [![Python 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
 
+<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg" height="150px" alt="the LaTeX logo">
+
 LaTeX en tant que code source est hautement disponible pour la manipulation, il peut en fait l’être avec n’importe quel langage supportant la lecture et l’écriture de fichiers .txt. C’est d’ailleurs la raison pour laquelle il reste une solution appliquée au sein d’entreprises publiques et privées de tous horizons dans la publication de rapports d’analyses statistiques internes relatifs à l’utilisation de leurs services. Dans notre travail, nous privilégierons le Python, en version 3.10, pour de multiples raisons : 
 
 >D’abord, le langage à été élu pour la cinquième année consécutive top programming language par l’Institute of Electrical and Electronics Engineers (IEEE) grâce notamment, à son importante communauté comprenant quelques unes des plus grandes entreprises au monde (Netflix, IBM, la NASA, Google et même Disney).
